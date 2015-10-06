@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1001,
+    "title": "ANGULARJS DEPENDENCY INJECTION",
+    "when": "10:00",
+    "where": "Kyoto Auditorium",
+    "author": {
+      "name": "Mauro Servienti",
+      "avatar": "http://2015.angularconf.it/assets/images/speaker-mauro.jpg",
+      "twitter": "mauroservienti"
+    },
+    "description": "AngularJS basa tutta la sua infrastruttura su un motire di dependency injection e invertion of control interno, è molto importante capire i meccanismi che regolamentano il suo fuinzionamento al fine di sfruttarne appieno le potenzialità. Oltre a dare una overview analizzeremo in particolare le differenze tra service, factory e provider, in particolare  i provider, concetto abbastanza ostico ma che se maneggiato con cura offre interessanti potenzialità"
+  },
+  {
+    "id": 1002,
+    "title": "ANGULARJS SECURITY: DIFENDI LA TUA SINGLE PAGE APPLICATION  ",
+    "when": "10:40",
+    "where": "Kyoto Auditorium",
+    "author": {
+      "name": "Carlo Bonamico",
+      "avatar": "http://2015.angularconf.it/assets/images/speaker-carlo.jpg",
+      "twitter": "carlobonamico"
+    },
+    "description": "Securing an html5 Single Page Application is not the same as protecting a typical JEE/Rails/PHP/.NET webapp. The industry-wide move towards HTML5 and Single Page Applications, motivated by the opportunity for more sophisticated interaction and UX, is again upsetting the balance between Hackers and Developers. A wave of new-generation front-end technologies, including Angularjs, is attracting Developers with their combination of productivity and innovative UX, but at the same time opens the door to new vulnerabilities and security challenges. This talk will summarize the main principles of Secure Coding, and will discuss their application to a typical angular HTML5 application with REST backend to prevent major risks (including OWASP Top Ten). A concrete example will demonstrate the use of tools and libraries, from RBAC to JWT, from Spring Security to AngularJS directives for implementing secure HTML5/JS apps."
+  }
+]
