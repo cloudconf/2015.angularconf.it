@@ -237,8 +237,9 @@ h3.margin span {
   border:3px dashed #333;
 }
 .flat .box {
-  height:220px;
-  min-height:auto;
+  height:180px;
+  box-sizing:border-box;
+  min-height:0;
   padding-left:10px;
   padding-right:10px;
 }
@@ -247,9 +248,13 @@ h3.margin span {
     left: 0;
     position: absolute;
     top: auto;
-    width: 300px;
+    width: 100%;
     z-index: 100;
     font-weight:bold;
+}
+.flat .box h4 {
+  font-weight:normal;
+  font-style:normal;
 }
 .flat img {
   max-width:180px;
