@@ -80,9 +80,17 @@ module.exports = function (grunt) {
                   '**'
               ],
               dest: 'build/assets/fonts/',
-              cwd: './src/assets/fonts/',
+              cwd: './src/assets/fonts/', 
               expand:true
-            }
+            },
+            {
+                src: [
+                    '**'
+                ],
+                dest: 'build/assets/slides/',
+                cwd: './src/assets/slides/',
+                expand:true
+              }
         ]
       },
       development_index_html: {
