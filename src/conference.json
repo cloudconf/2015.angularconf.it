@@ -1,0 +1,126 @@
+{
+  "details": {
+    "sponsors": [
+      {
+        "url": "http://corley.it",
+        "logo": "http://2016.angularconf.it/assets/images/sponsor/corley.png"
+      },
+      {
+        "url": "http://www.intre.it/?ref=conf",
+        "logo": "http://2016.angularconf.it/assets/images/sponsor/intre.png"
+      }
+    ],
+    "date": 1478088000000
+
+  },
+  "talks":[
+    {
+      "id": 1610001,
+      "title": "Sacrificial Architecture in Angular2",
+      "when": "10:00",
+      "where": "London",
+      "author": {
+        "name": "Francesco Strazzullo",
+        "avatar": "http://2016.angularconf.it/assets/images/speaker-strazzullo.jpg",
+        "twitter": "TheStrazz86"
+      },
+      "description": "L'architettura di un software è sicuramente qualcosa che non è facile cambiare in corsa. Come conciliare quindi il bisogno di un'architettura software con il bisogno di abbracciare il cambiamento tipico delle metodologie Agili? Una delle soluzioni è l'Architettura Sacrificale, concetto introdotto da Martin Fowler nel suo blog. Con questo tipo di architettura possiamo adattare il nostro codice alle features richieste in pochissimo tempo e mantenendo la nostra applicazione manutenibile nel tempo. Vedremo come applicare questo tipo di architettura in un progetto Angular2 e soprattutto capire quando è il caso di utilizzarla."
+    },
+    {
+      "id": 1610002,
+      "title": "React vs Angular: questione di punti di vista",
+      "when": "10:35",
+      "where": "London",
+      "author": {
+        "name": "Massimiliano Mantione",
+        "avatar": "http://2016.angularconf.it/assets/images/speaker-mantione.png",
+        "twitter": "m_a_s_s_i"
+      },
+      "description": "Angular 2 e ReactJS rappresentano oggi la nuova frontiera dello sviluppo javascript frontend. Ma in cosa si differenziano e quali sono invece i punti di contatto? In questo talk scopriremo gli approcci per la gestione delle viste e della UI, la programamzione funzionale e la gestione dei modelli investigandoli dal punto di vista di uno sviluppatore React, per poi confrontarli puntualmente con la controparte Angular."
+    },
+    {
+      "id": 1610003,
+      "title": "FrontendOps: il lato oscuro dei progetti web",
+      "when": "12:00",
+      "where": "London",
+      "author": {
+        "name": "Matteo Ronchi",
+        "avatar": "http://2016.angularconf.it/assets/images/speaker-ronchi.jpg",
+        "twitter": "cef62"
+      },
+      "description": "Negli ultimi anni la complessità dello sviluppo front end è cresciuta esponenzialmente rendendo davvero difficile stare al passo con tutte le novità che vengono sviluppate. Mantenere e configurare le automazioni di un progetto è sempre più complicato: troppe scelte a disposizione per chi vi si avvicina per la prima volta, dispersivo e time consuming per gli sviluppatori esperti. Si vedrà come migliorare le automazioni dei vostri progetti utilizzando varie tecniche, trucchi e strumenti al fine di migliorare la vostra Developer Experience nel mantenere ed evolvere le automazioni dei vostri progetti."
+    },
+    {
+      "id": 1610004,
+      "title": "Migrare da AngularJS 1 ad Angular 2: un atto di fede?!?",
+      "when": "12:35",
+      "where": "London",
+      "author": {
+        "name": "Alessandro Giorgetti",
+        "avatar": "http://2016.angularconf.it/assets/images/speaker-alessandro2.jpg",
+        "twitter": "A_Giorgetti"
+      },
+      "description": "Migrare le proprie applicazioni da AngularJs 1 and Angular 2 potrebbe non essere una rilassante passeggiata nel parco, alcune domande da porsi e molte variabili in gioco che spaziano dalle librerie utilizzate, agli skills, alla dimensione del team di sviluppo e delle applicazioni coinvolte nel processo, alla necessità di continuare a fornire nuove feature ai clienti sugli applicativi già rilasciati. Con un po' di accortezza, una attenta preparazione ed un buon 'piano di battaglia' è possibile avventurarsi nell'impresa; non mancheranno le occasioni per imparare qualcosa di nuovo lungo il percorso. In questa sessione introdurremo quelle che sono le principali problematiche da affrontare, quali strumenti e quali metodologie utilizzare per completare con successo la migrazione, e... giusto! Un po' di buon vecchio codice non guasta mai!"
+    },
+    {
+      "id": 1610005,
+      "title": "Semplificare la gestione di un progetto con Angular CLI",
+      "when": "14:00",
+      "where": "London",
+      "author": {
+        "name": "Andrea Chiarelli",
+        "avatar": "http://2016.angularconf.it/assets/images/speaker-chiarelli.jpg",
+        "twitter": false
+      },
+      "description": "Angular CLI ci consente di semplificare il setup ed il ciclo di sviluppo mettendoci a disposizione numerose funzionalità che senza dubbio impareremo ad apprezzare."
+    },
+    {
+      "id": 1610006,
+      "title": "Ionic, Angular, e lo sviluppo mobile ibrido",
+      "when": "14:35",
+      "where": "London",
+      "author": {
+        "name": "Gabriele Mittica",
+        "avatar": "http://2016.angularconf.it/assets/images/speaker-gmittica.jpg",
+        "twitter": "gabrielemittica"
+      },
+      "description": "Scopriamo come potenziale la produttività e migliorare il nostro codice con un progetto AngularJS flessibile e con la scelta corretta dei migliori moduli disponibili. Strategie di deploy, gestione dipendenze, testing e sviluppo mobile con tool quali Bower, GruntJS e Phonegap."
+    },
+    {
+      "id": 1610007,
+      "title": "Elogio a AngularJS 1.x",
+      "when": "16:00",
+      "where": "London",
+      "author": {
+        "name": "Antonello Pasella",
+        "avatar": "http://2016.angularconf.it/assets/images/speaker-pasella.png",
+        "twitter": "apasella"
+      },
+      "description": "È uscito Angular2, che fare di tutti quei progetti, piccoli e grandi, fatti con la 1.x? Buttiamo tutto? Chi lo dice al boss che dobbiamo anche riconvertire tutti gli sviluppatori a TypeScript? Facciamo un respiro profondo, prendiamo una bella tisana e fermiamoci un attimo a riflettere."
+    },
+    {
+      "id": 1610008,
+      "title": "Introduzione a Redux (e come usarlo con Angular2)",
+      "when": "16:30",
+      "where": "London",
+      "author": {
+        "name": "Gian Marco Toso",
+        "avatar": "http://2016.angularconf.it/assets/images/speaker-toso.jpg",
+        "twitter": "gianmarcotoso"
+      },
+      "description": "Dopo una introduzione al FLUX pattern parleremo di Redux, una libreria per application state management. Il talk includerà sia codice che concetti di alto livello. Vedremo anche alcuni differenti approcci per usare Redux con Angular2."
+    },
+    {
+      "id": 1610009,
+      "title": "Un unico linguaggio per backend e frontend: da Angular al cloud",
+      "when": "17:00",
+      "where": "London",
+      "author": {
+        "name": "Walter Dal Mut",
+        "avatar": "http://2016.angularconf.it/assets/images/speaker-dalmut.jpg",
+        "twitter": "walterdalmut"
+      },
+      "description": "Le applicazioni Angular si sposano spesso con sistemi API-driven. Ma come sfruttare le conoscenze di javascript e Angular per creare e integrare un backend REST senza allontanarsi dallo sviluppo frontend? Scopriamo i servizi scalabili di API Gateway, Lambda e DynamoDB e integriamoli in una applicazione Angular 'scalabile all'infinito'."
+    }
+  ]
+}
