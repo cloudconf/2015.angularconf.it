@@ -24,7 +24,7 @@ module.exports = function (grunt) {
       },
       build: {
         cwd: "./build/",
-        src: "**"
+        src: "**.html"
       }
     },
     copy: {
@@ -80,7 +80,7 @@ module.exports = function (grunt) {
                   '**'
               ],
               dest: 'build/assets/fonts/',
-              cwd: './src/assets/fonts/', 
+              cwd: './src/assets/fonts/',
               expand:true
             },
             {
