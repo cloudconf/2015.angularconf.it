@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+		<meta name="description" content="Foto, slide, video e resoconto dell'evento!" />
+		<meta name="keyword" content="speech angularjs, conferenza angularJs" />
+		<meta name="Copyright" content="Corley" />
+		<meta name="Language" content="Italian" />
+		<meta name="robots" content ="index,follow" />
+		<meta name="documentType" content="WebDocument" />
+		<meta name="publisher" content="" />
+		<meta name="ICBM" content="45.030, 7.40" />
+		<meta name="geo.position" content="45.030, 7.40" />
+		<title>Recap - AngularConf  2016</title>
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+        <!-- Development -->
+        <link rel="stylesheet" type="text/css" href="/assets/compiled.css" />
+        <!-- <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">-->
+        <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
+        <!-- END Development -->
+
+        <link href='http://fonts.googleapis.com/css?family=Oxygen:400,300,700' rel='stylesheet' type='text/css'>
+
+                  <meta property="og:title" content="AngularConf 2016, il grande evento su AngularJS a Torino!"/>
+                  <meta property="og:type" content="website"/>
+                  <meta property="og:image" content="http://2016.angularconf.it/assets/images/angular-og.png"/>
+                  <meta property="og:url" content="http://www.angularconf.it"/>
+                  <meta property="og:site_name" content="AngularConf 2016"/>
+
+
+           <link rel="icon" type="image/png" href="http://2016.angularconf.it/assets/images/favicon.png">
+        <script language="JavaScript" type="text/javascript">
+         /* if (navigator.userLanguage) {theAgent = navigator.userLanguage;}
+          else {theAgent = navigator.language;}
+          if (theAgent.indexOf('it') != -1) {location.href = "http://2016.cloudconf.it/it";}*/
+        </script>
+    </head>
+<body class="internal venue">
+
+<!--[if lt IE 9]>
+<script>
+document.createElement('video');
+</script>
+<![endif]-->
+
+
+
+
+        <div  role="navigation" class="navbar top">
+            <div class="container ">
+
+              <div class="navbar-header ">
+                <button data-target="#navbar" data-toggle="collapse" class="navbar-toggle" type="button">
+                  <i class="fa fa-bars"></i>
+                </button>
+               <h1><a href="/"><strong>AngularConf</strong> 2016</a></h1>
+
+              </div>
+              <div id="navbar" class="navbar-collapse collapse menu1 pull-right">
+                <ul class="nav navbar-nav">
+                   <!-- <li><a href="http://bit.ly/1uiygH3" target="_blank" class="btn btn-lg btn-link">Call for Papers</a></li>-->
+                   <li><a href="/workshop.html" class="btn btn-lg btn-link">Workshops</a></li>
+                   <li><a href="/schedule.html" class="btn btn-lg btn-link">Speakers</a></li>
+                   <li><a href="/tickets.html" class="btn btn-lg btn-link">Biglietti</a></li>
+                   <li><a href="/venue.html" class="btn btn-lg btn-link">Location</a></li>
+                   <li class="hidden-md hidden-lg"><a href="https://twitter.com/_CloudConf_" class="btn btn-lg btn-link">Twitter</a></li>
+                   <li class="hidden-md hidden-lg"><a href="https://www.facebook.com/pages/Cloud-Conf-Italia/140265592804313" class="btn btn-lg btn-link">Facebook</a></li>
+                   <li class="hidden-sm hidden-xs"><a href="https://twitter.com/_CloudConf_" class="btn btn-info btn-circle btn-lg btn-twitter"><i class="fa fa-twitter"></i></a></li>
+                   <li class="hidden-sm hidden-xs"><a href="https://www.facebook.com/pages/Cloud-Conf-Italia/140265592804313" class="btn btn-primary btn-circle btn-lg btn-facebook"><i class="fa fa-facebook"></i></a></li>
+                </ul>
+              </div>
+          </div>
+        </div>
+
+     <div class="row land land09"></div>
+
+        <div class="container">
+
+
+          <div class="row margin_75_0">
+            <div class="col-lg-12">
+                    <h1 class="text-center">Domande ai relatori</h1>
+                    <h2>&nbsp;</h2>
+            </div>
+
+            <div class="row">
+              <div class="margin_100_0_0">
+                <h3>Sacrifical Architecture by Francesco Strazzullo<a name="1"></a></h3>
+                <blockquote>
+                  In quale contesto credi sia utile questo tipo di architettura?
+                  <footer>
+                  Secondo me un modo di capire se è giusto utilizzare questo tipo di approccio è dividere i problemi in Complicati e Complessi. Un sistema complicato è un sistema in cui ci si affida ad esperti perché si è certi che la soluzione esiste anche se ci è oscura. Invece un sistema in un sistema complesso non è possibile prevederne con certezza lo sviluppo. In questi casi abbiamo sicuramente bisogno di cambiare direzione al volo e l'architettura sacrificale ci può aiutare in questo senso
+                  </footer>
+                </blockquote>
+                <blockquote>
+                  Quanto è applicabile la SA ad un progetto e codice esistenti?
+                  <footer>
+                    Sinceramente non mi è mai capitato, ma credo sia fattibile. Un esempio potrebbe essere quello di considerare tutta la base di codice "legacy" come uno shared module. Attorno a questo si possono creare dei nuovi moduli e spostare di volta in volta il codice all'interno degli stessi.
+                  </footer>
+                </blockquote>
+
+              </div>
+            </div>
+
+
+          <div class="row">
+            <div class="margin_100_0_0">
+              <h3>React vs Angular2 by Alessandro Mantione<a name="2"></a></h3>
+              <blockquote>
+                Cosa mi potreste dire delle performance di angular2 e react in rendering e re-rendering?
+                <footer>
+                  Di react che e' eccellente: e' costruito in modo da fare il re-rendering modificando il minimo indispensabile del DOM gia' presente sulla pagina (ed e' uno dei suoi punti di forza).
+Facebook inoltre sta lavorando per fare avvenire il rendering in "fibers", in modo asincrono ed incrementale, in modo che eventuali update "massivi" del DOM non blocchino l'event loop troppo a lungo (il rendering "pesante" verrebbe distribuito su piu' frame).
+L'idea e' che non dovrebbe mai piu' succedere di "perdere" un frame a causa di un re-render troppo grosso.<br>
+
+Per quello che so tecnicamente di angular, la sua performance rispetto a quella di react e' penalizzata da due cose:<br>
+[1] la change detection, che e' agevolata dalle "zones" ma e' comunque presente<br>
+[2] dubito che il suo modello di "DOM update" sia altrettanto mirato di quello di react ma non ne sono sicuro<br>
+<br>
+Anche in angular 2, come in react, si possono usare valori immutabili per agevolare la change detection.<br>
+<br>
+Detto questo la performance di angular 2 e' sicuramente piu' che ragionevole per ogni caso "comune".
+Se cercate di fare tabelle con 100k rows dovrete fare attenzione in ogni caso, indipendentemente dal framework...
+
+                </footer>
+              </blockquote>
+
+              <blockquote>
+                Se react gestisce "solamente" le view, è possibile integrare react in un app angular, quindi farli coesistere ?
+                <footer>
+                  Due risposte: tecnica e di buon senso.<br><br>
+
+[1] Tecnicamente react ha bisogno di un nodo DOM su cui agganciarsi per fare render di un component.
+Immagino che angular permetta di accedere direttamente ai nodi del DOM che gestisce, quindi tecnicamente credo che si possa fare.<br>
+
+[2] Buon senso: ha veramente senso pagare il prezzo di entrambi i framework (download size)? Ha senso lavorare con due framework cosi' complessi nella stessa application (problemi di skill del team e complessita' del codice)? Io probabilmente lo farei SOLO se volessi migrare da angular a react in modo incrementale (o vice-versa), un po' come passare da angular 1 al 2.
+
+
+                </footer>
+              </blockquote>
+
+              <blockquote>
+                React è pronto per l'utilizzo in produzione nel contesto italiano?
+                <footer>
+                  Si, e' pronto: ha un buon ecosistema ed e' ben documentato. Non vedo in che modo il contensto italiano debba essere diverso da quello mondiale :-)
+                </footer>
+              </blockquote>
+
+              <blockquote>
+                Ciao, il data binding è uno dei punti di forza di Angular JS ma alcune persone lo ritengono bello tanto quanto pericoloso. Posso avere un parere di entrambi su questo argomento?
+                <footer>
+                  Distinguo 2 way da 1 way.<br>
+                  Secondo me il problema del 2 way data binding e' che al crescere della complessita' dell'applicazione cominciano a verificarsi casi in cui un update all view causa un update al model che a sua volta si deve riflettere su un altro component della view, diventa difficile ragionare su cause ed effetti, ed in pratica il comportamento dinamico del codice diventa piu' difficile da comprendere e manutenere (mentre lo scopo del data binding sarebbe ren derlo piu' semplice).<br>
+Per il 1 way data binding il problema e' normalmente legato alla "magia" che fa si' che avvenga la change detection e quindi si inneschino gli "effetti" del binding (update della view o altro).<br>
+Queste "magie" sono delle astrazioni, ma le implementazioni sono tali per cui invariabilmente si ha una "leaky abstraction".<br>
+Quando l'astrazione "salta"  e si hanno problemi o di performance, o di "glitch" (un singolo update ne causa due nel tempo, di cui uno "spurio", non credo avvenga in nel data binding di angular ma e' normale con RxJS).<br><br>
+
+Lo "zen del Python" dice che "explicit is better than implicit".<br>
+In react il "data binding" si innesca in modo esplicito: avviene al render (e al setState, che triggera un render), e non ci sono mai sorprese (non su questo, almeno!).<br>
+In angular e' implicito: fino a che non ci sono stranezze tutto e' piu' semplice, ma quando ci sono bisogna comunque capire fino in fondo come funziona il framework e aggiungere workaround.
+(nota: il "binding" e' esplicito anche in angular, e' quando *agisce* che e' implicito!!!).
+
+                </footer>
+              </blockquote>
+
+              <blockquote>
+                React è ricco di libreire e componenti quanto lo era angular1?
+                <footer>
+                  Piu' o meno di angular 1 non lo so... ma e' molto, molto ricco, al punto da innescare la "javascript fatigue" :-) In breve: ci sono piu' collezioni di componenti di quanti uno sviluppatore ne possa imparare a conoscere a fondo in tempi ragionevoli.
+                </footer>
+              </blockquote>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="margin_100_0_0">
+              <h3>Migrazione ad Angular2 by Alessandro Giorgetti<a name="3"></a></h3>
+              <blockquote>
+                Typescript ci regala qualcosa. ma ci fa perdere una programmazione funzionale. gli stessi pasticci di angular1 nn li faremo anche nel 2 forzando una programmazione oop?
+                <footer>
+                  TypeScript non ti obbliga ad abbandonare la programmazione funzionale, è un superset di JavaScript che aggiunge feature altrimenti mancanti (come il controllo di tipo) ma non essenziali. Decidi tu sviluppatore a che 'livello' adottare TypeScript. Il concetto di classe non viene introdotto nel linguaggio da TypeScript, è proprio dello standard ES2015 di JavaScript. Adottate uno stile funzionale o OOP è preferenza dello sviluppatore. Angular 2 (ma in generale qualsiasi framework che utilizzi Inversion of Control o Dependency Injection) utilizza stile OOP per mera convenienza: la strutturazione / modularità dell'applicazione, con tutti i vantaggi che ne conseguono. Quanto ai 'pasticci' se ne possono fare con qualsiasi linguaggio e qualsiasi framework, è tutta una questione di competenza e disciplina del programmatore.
+                </footer>
+              </blockquote>
+
+
+              <blockquote>
+                Allo stato attuale della community, in quali casi consigli di partire con un progetto nuovo in Angular2? In quali altri è preferibile scrivere in Ajs1 e valutare la migrazione successiva?
+                <footer>
+                  Partire in Angular 1 con l'obiettivo di migrare poi è 'da pazzi'. La migrazione è una procedura pensata per colo che vogliano aggiornare le proprie applicazioni già pensate per Angular 1. Valuta le dimensioni del progetto, se e per quanto tempo andrà manutenuto ed il time to market. Con Angular 1 sicuramente la tua produttività sarà più alta (maggiori competenze, più librerie di terze parti, etc...). Se il progetto è 'piccolo' e necessiterà di poca manutenzione nel futuro probabilmente utilizzare Angular 1 ti garantirà risultati immediati. Tuttavia potrebbe anche essere utilizzato come palestra per Angular 2. Tutto dipende da criticità del progetto e da quanto tempo / risorse si hanno a disposizione.
+
+                </footer>
+              </blockquote>
+
+
+              <blockquote>
+                For a big project is it worthy migrating the project with risk of breaking at every step or should we just start from the bottom and rewrite everything?
+                <footer>
+                  "It Depends" like the DDD community is used to say. Rewriting from the ground up has one big advantage (the solution will be specifically designed with Angular 2 in mind, no compromises) and some disadvantages (two codebases to maintain, an excessive slowdown in the development of the old solution, more resources required). The migration process will be slow (it can take months if done correctly and the project is very big), but you will never stop the project development and you will keep delivering value to the customers. You'll have to face some critical points but nothing that cannot be fixed (or rewritten). If, along the way, you'll decide that the migration process will just take too much or is not doable, you will not throw away all the work done; because all the code already migrated can be reused in a new 'I'll do a complete rewrite' project.
+                </footer>
+              </blockquote>
+
+
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="margin_100_0_0">
+              <h3>Angular CLI by Andrea Chiarelli<a name="4"></a></h3>
+              <blockquote>
+                So che al momento non e possibile aggiungere moduli ad hoc tipo postCss che tu sappia sara una cosa possibile in futuro?
+                <footer>
+                  La versione attuale di Angular CLI è ancora in beta e diverse modifiche sono in corso (basti pensare alla recente sostituzione di SystemJS con Webpack).
+L'esigenza di aggiungere moduli ad hoc nella pipeline di building, come ad esempio postCSS, è molto sentita dalla comunità e sono sicuro che il team di Angular CLI troverà una soluzione per bilanciare la necessità di nascondere la complessità dell'ecosistema e la sua flessibilità.
+A tale proposito può risultare interessante la seguente discussione sulla personalizzazione di Webpack: <a href="https://github.com/angular/angular-cli/issues/1656" target="_blank">https://github.com/angular/angular-cli/issues/1656</a>
+                </footer>
+              </blockquote>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="margin_100_0_0">
+              <h3>Redux by Gian Marco Toso<a name="5"></a></h3>
+              <blockquote>
+                Perchè ho bisogno di una entità che crea l'azione? non posso importare e "dispatchare" direttamente l'azione stessa?
+                <footer>
+                  Visto che l'azione può essere chiamata potenzialmente in più punti dell'applicazione è meglio utilizzare un action creator, per evitare ripetizioni di codice;
+                </footer>
+              </blockquote>
+
+
+
+              <blockquote>
+                Avrebbe senso far coesistere il 2 way data binding di angular 2 con redux?
+                <footer>
+                  Potrebbe avere senso, nel momento in cui si vuole utilizzare il 2-way data binding per gestire lo stato interno dei componenti Angular2 e Redux per lo stato applicativo. Naturalmente va valutato di caso in caso se la cosa può o meno essere sensata;
+                </footer>
+              </blockquote>
+
+
+
+              <blockquote>
+                Ci sono prassi consigliate per la persistenza dello stato/store?
+                <footer>
+                  Una soluzione valida e molto utilizzata è Redux-Persist (<a href="https://github.com/rt2zz/redux-persist" target="_blank">https://github.com/rt2zz/redux-persist</a>).
+                </footer>
+              </blockquote>
+
+
+
+              <blockquote>
+                Lo Store non diventa un collo di bottiglia? Come scala?
+                <footer>
+                  Non è tanto un problema di quanti dati sono presenti nello store ma piuttosto di quanti reducer intercettano le actions. Su store parecchio complessi si può usare <a href="https://github.com/omnidan/redux-ignore" target="_blank">https://github.com/omnidan/redux-ignore</a> per mitigare il problema e far arrivare le azioni solo a reducer specifici. In ogni caso uno store può, ma non necessariamente deve, contenere una rappresentazione completa dello stato applicativo. Si possono adottare delle politiche di cleanup per mantenere i dati memorizzati nello state al minimo indispensabile!
+                </footer>
+              </blockquote>
+
+
+
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="margin_100_0_0">
+              <h3>Ionic by Gabriele Mittica<a name="6"></a></h3>
+              <blockquote>
+                Ionic è buono per realizzare applicazioni mobile ma non è ancora possibile realizzare facilmente un'interfaccia sia per smartphone che per tablet. Ti è già capitato di affrontare una problematica simile?
+                <footer>
+                  Sì, purtroppo come anticipato la responsività di Ionic 1 non è a mio parere al momento sufficiente. E' valida, ma avrebbero potuto fare uno sforzo maggiore (come per esemnpio fatto da Bootstrap 3 e 4). Ad ogni modo esistono molti temi in Ionic ed essendo la view puro HTML e CSS non è  impossibile, anzi, ampliare il proprio set per supportare pienamente anche i tablet.
+                </footer>
+              </blockquote>
+
+
+              <blockquote>
+                Escludendo la questione performance quali sono le tipologie di progetto per i quali non raccomanderesti affatto ionic o simili e perché?
+                <footer>
+                  In generale sconsiglierei uno svilupo ibrido nel caso in cui ci siano forti interazioni con il dispositivo a livello hardware. Il comparto di plugin Cordova è nutrito e ampio, ma se in progettazione ci accorgiamo che i plugin disponibili non supportano in pieno i nostri obiettivi, vale la pensa valutare l'opzione 'sviluppo nativo'.
+                </footer>
+              </blockquote>
+
+
+              <blockquote>
+                A che punto è Ionic con Angular 2?
+                <footer>
+                  Ionic 2 è basato su Angular 2 ed è attualmente in fase di Release Candidate (prossimo al rilascio), è presumibile quindi pensare che Ionic 2 sbarcherà presto.
+                </footer>
+              </blockquote>
+
+
+              <blockquote>
+                Cosa ne pensi della concorrenza tipo NativeScript / Telerik ecc. ?
+                <footer>
+                  La Telerik produce strumenti di grande qualità e NativeScript è uno strumento molto potente in grado di offrire alte prestazioni ad una applicazione Angular (o in generale app js) in ambiente mobile. Lo scoglio è strutturale e di apprendimento, in quanto bisogna aggiungere un'ulteriore tecnologia al proprio bagaglio di competenze.
+                </footer>
+              </blockquote>
+
+
+              <blockquote>
+                Vantaggi ionic rispetto a cordova ?
+                <footer>
+                  Non sono comparabili. Ionic è un framework JS, Cordova una piattaforma di integrazione plugin per lo sviluppo di app ibride. Possono essere usati insieme ovviamente. Un confronto più sensato è quello tra Ionic.com, la parte commerciale di Ionic che offre anche servizi di build (cioè di produzione delle applicazioni compilate) con PhoneGap Build, cioè il "Cordova hostato by Adobe". Entrambe piattaforma valide, la prima in particolare più interessante da un punto di vista di servizi offerti nonostante più giovane.
+                </footer>
+              </blockquote>
+
+
+              <blockquote>
+                Cosa ne pensi delle prestazioni visto che l'applicazione è ospitata all'interno di un WebView? Avendolo utilizzato ho notato che, se si "esagera", è facile incorrere in questo problema.
+                <footer>
+                  Sicuramente. Le prestazioni sono un capitolo motlo importante specie quando si desidera una forte reattività con modelli grafici e transizioni. Un primo consiglio è quello di minificare e ottimizzare correttamente l'intero codice js, css, html. In secondo luogo valutare attentamente l'adozione di plugin che possono aiutare le performance (come native transiction della telerik).
+                </footer>
+              </blockquote>
+
+
+              <blockquote>
+                Quanto è importante per uno sviluppatore ionic passare a ionic 2?
+                <footer>
+                  Al momento non credo fondamentale, specie perchè ancora in fase di release candidate. Suggerisco tuttavia di iniziare a studiare il framework e valutarne l'adozione nel corso del 2017 quando ci saranno anche più materiale e moduli online disponibili.
+                </footer>
+              </blockquote>
+
+
+
+            </div>
+          </div>
+
+
+
+
+
+
+      </div>
+      </div>
+
+     <div class="row land land05"></div>
+     <div class="row margin_50">
+        <div class="col-lg-12 text-center">
+            <h4>AngularConf 2016 - an event by <a href="http://www.corley.it" target="_blank">Corley srl</a></h4>
+        </div>
+     </div>
+
+
+
+
+
+
+
+
+    <!-- Development -->
+    <script type="text/javascript" src="/assets/js/jquery/dist/jquery.js"></script>
+    <script type="text/javascript" src="/assets/js/bootstrap/dist/js/bootstrap.js"></script>
+    <script>
+
+
+    function getParameterByName(name) {
+        name = name.replace(/[\[]/, "\\[").replace(/[\]]/, "\\]");
+        var regex = new RegExp("[\\?&]" + name + "=([^&#]*)"),
+            results = regex.exec(location.search);
+        return results === null ? "" : decodeURIComponent(results[1].replace(/\+/g, " "));
+    }
+
+    $('.box').popover({
+      container: "body",
+      toggle: "popover",
+      trigger:"hover",
+      html:true,
+      content: function(){
+        return $(this).find('.invisible').html();
+      }
+    });
+
+
+
+    </script>
+    <!-- <script src="//localhost:35729/livereload.js"></script>-->
+    <!-- END Development -->
+
+    <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-32091906-1', 'auto');
+    ga('send', 'pageview');
+
+    </script>
+
+</body>
+</html>

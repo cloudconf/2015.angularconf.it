@@ -79,6 +79,12 @@ body.internal {
     color:#000;
     text-decoration:none;
 }
+blockquote footer::before, blockquote small::before, blockquote .small::before {
+  content: " > "
+}
+blockquote footer, blockquote small, blockquote .small {
+  color:#444;
+}
 .navbar-header {
 }
 .navbar .pull-right {
